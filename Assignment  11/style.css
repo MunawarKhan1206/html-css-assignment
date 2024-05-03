@@ -1,0 +1,566 @@
+@font-face {
+    font-family: psans;
+    src: url(assests/fonts/Public_Sans/PublicSans-Italic-VariableFont_wght.ttf);
+
+}
+
+@font-face {
+    font-family: rmono;
+    src: url(assests/fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+
+.container-xxl {
+    margin: -10px;
+}
+
+.nasa-logo {
+    width: 80px;
+}
+
+.nasa-logo>img {
+
+    margin-left: 50px !important;
+}
+
+.search-icon {
+    display: none;
+}
+
+.text-color {
+    color: white !important;
+
+}
+
+.font-weight {
+    font-size: 1.1rem !important;
+    font-weight: 900 !important;
+}
+
+
+.text-black {
+    color: black !important;
+
+}
+
+.nav-item span {
+    font-size: 14px;
+    padding: 0em 1em;
+    border: red dotted 2px;
+}
+
+.nav-item span:hover {
+    background-color: red;
+}
+
+.bgblack {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.bgwhite {
+    background-color: white !important;
+}
+
+.navbar input::placeholder {
+    color: grey !important;
+}
+
+/* s1 */
+.section-one {
+
+    background: linear-gradient(rgba(56, 55, 55, 0.5), rgba(0, 0, 0, 0.5)),
+        url(assests/images/nova\ moon.png) no-repeat center center/cover;
+}
+
+.home-view {
+    padding-top: 10%;
+    width: 60% !important;
+
+}
+
+.descriptions>h1 {
+    width: 100%;
+    font-size: 4.4em;
+    color: white;
+    font-family: ps;
+    font-weight: 600;
+
+}
+
+.descriptions>p {
+    color: white;
+    width: 80%;
+    font-family: sans-serif;
+    font-weight: 800;
+
+}
+
+.descriptions>button {
+    padding: 10px 36px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(185, 24, 24);
+    color: white;
+}
+
+.descriptions2 {
+
+    height: 230px;
+    padding-top: 30pX;
+}
+
+.descriptions2 p {
+    word-spacing: 3px;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: rmono;
+
+
+
+}
+
+::before {
+
+    color: red;
+}
+
+/*  */
+.news-box1 {
+    margin: 10px 0px;
+    height: 100%;
+}
+
+.news-box1>img {
+    filter: brightness(70%);
+
+}
+
+.text-upper {
+
+    position: relative;
+    bottom: 100%;
+    padding: 0px 6px;
+
+}
+
+.news-release {
+
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    margin-top: 45%;
+
+}
+
+
+.text-upper>.art {
+    font-family: rmono;
+    font-size: 1em;
+
+}
+
+.main-box {
+    height: 412px !important;
+
+}
+
+/* N2  */
+.news-box2 {
+    margin: 10px 0px;
+    height: 100% !important;
+}
+
+.news-box2>img {
+    filter: brightness(70%);
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    margin-top: 80%;
+}
+
+.font-weight-h4 {
+    font-size: 1.4rem;
+    font-weight: 800;
+
+}
+
+/* N3  */
+
+.news-box3 {
+    margin: 10px 0px;
+    height: 100%;
+}
+
+.news {
+    background-color: #fff;
+    margin: 50px;
+}
+
+.heading-news {
+    margin: 4% 0%;
+}
+
+.heading-h6 {
+    display: flex;
+    align-items: center;
+}
+
+.text-upper1 {
+    height: 10px;
+}
+
+.articels {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 100px;
+    padding: 0px 10px;
+}
+
+/* Article */
+
+
+.art-box1 {
+    padding: 10px 0px;
+}
+
+.art-box2 {
+
+    padding: 10px 0px;
+}
+
+.art-box3 {
+
+    padding: 10px 0px;
+}
+
+.art-box4 {
+    padding: 10px 0px;
+}
+
+.art {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.art-img>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+
+}
+
+.art-text {
+    padding: 10px 0px;
+
+
+}
+
+.border {
+    border: red 2px solid;
+    margin-left: 20px;
+}
+
+/* video  */
+.section-three {
+    background-color: black;
+    height: 600px;
+}
+
+.feature-text>.font-fam {
+    font-family: psans;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.feature-text>.tcof {
+    font-family: rmono;
+    font-weight: 800;
+    font-size: 35px;
+
+}
+
+.feature-text>.mvg {
+    font-size: large;
+    font-weight: 700;
+}
+
+.feature-text>.tcofdetails {
+
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'psans';
+    line-height: 240%;
+    text-align: justify;
+
+}
+
+.feature-text {
+    margin-top: 10% !important;
+    color: white;
+
+
+}
+
+.feature-video {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4% !important;
+}
+
+/* section four */
+
+p.Today {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+.rem-img {
+    margin: 2% 0% !important;
+}
+
+.rem-text {
+    margin: 8% 0% !important;
+}
+
+.rem-text>h1 {
+    margin-bottom: 10%;
+    font-weight: 800;
+    font-family: psans;
+}
+
+h5.astronaut {
+    font-weight: 800;
+    line-height: normal;
+    font-family: sans-serif;
+}
+
+p.sts-60 {
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'psans';
+    line-height: 160%;
+    text-align: justify;
+}
+
+h6.bia {
+    font-size: large;
+    font-weight: 600;
+}
+
+/* s5 */
+.section-five {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(71, 71, 71, 0.5)),
+        url(assests/images/our\ planet.jpg) no-repeat center center/cover;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.intership-text>.exploreh {
+
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: x-large;
+    color: white;
+    font-weight: 800;
+    font-family: 'psans';
+
+
+}
+
+.intership-text>.explorep {
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'psans';
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.intership-text>.sup {
+
+    color: white;
+    margin-left: 50px;
+    font-family: 'psans';
+    font-weight: 600;
+}
+
+.section-exploring {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(71, 71, 71, 0.5)),
+        url(assests/images/ultraviolet-sky-release.jpg) no-repeat center center/cover;
+    height: 500px;
+    margin-top: 10px;
+}
+
+p.explorep2 {
+    font-size: x-large;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'psans';
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.sp {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sp:hover {
+    color: black;
+    background: white;
+}
+
+.section-seven {
+    margin-top: 4%;
+}
+
+.topic-toptext {
+    margin-bottom: 4%;
+}
+
+.topic-main {
+
+    margin: 4% 0%;
+    padding: 0px 40px;
+
+}
+
+.topic-main img {
+    filter: brightness(50%);
+}
+
+.topi>h1 {
+    font-weight: 800;
+}
+
+.font-fam {
+    font-family: psans;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.nasa-history {
+    position: relative;
+    bottom: 12%;
+    margin: 0px 10px;
+
+    color: #fff;
+}
+
+.human {
+
+    position: relative;
+    margin: 0px 10px;
+    bottom: 12%;
+    color: #fff;
+}
+
+.value {
+
+    margin: 0px 10px;
+    margin: 0px 10px;
+    position: relative;
+    color: #fff;
+    bottom: 12%;
+}
+
+.mission {
+
+    position: relative;
+    margin: 0px 10px;
+    color: #fff;
+    bottom: 12%;
+}
+
+/* f1 */
+.footer-one {
+    background-color: black;
+
+}
+
+.footer-main {
+    padding: 20px;
+}
+
+.foot-logo>img {
+    width: 6%;
+}
+
+.foot-logo {
+    background-color: black;
+    padding: 2% 0px;
+    margin: 20px 0px;
+
+}
+
+.foot-text1 {
+    color: white;
+}
+
+.foot-text2 {
+    color: white;
+}
+
+
+.foot-text3 {
+    color: white;
+}
+
+.foot-text4 {
+    color: white;
+}
+
+.foot-text5 img {
+    margin: 10px 0px;
+}
+
+.foot-text5 {
+    color: white;
+}
+
+h3.headingf1 {
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+p.introf1 {
+    font-size: large;
+    font-weight: 600;
+    font-style: oblique;
+    line-height: normal;
+    color: #898A8B
+}
+
+.foot>ul>li {
+
+    list-style: none;
+    line-height: 35px;
+    font-size: large;
+    font-style: oblique;
+    font-weight: 700;
+
+}
+
+.foot>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.social img {
+    width: 40px;
+    padding: 4px;
+    height: 20%;
+    border-radius: 50%;
+
+}

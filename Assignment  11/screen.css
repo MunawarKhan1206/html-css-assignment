@@ -1,0 +1,248 @@
+@media only screen and  (max-width:600px){
+    .nasa-logo{
+        display: none;
+    }
+    .art-main{
+        margin-top: 800px;
+    }
+    .home-view2{
+        margin-top:30% !important; 
+    }
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .text-view{
+        width: 100% !important;
+        font-size: 11px ; 
+    }
+    .home-view{
+        width: 100% !important;
+    }
+    .text-view>button{
+        padding: 5px 20px ;
+        font-size: 10px ;
+        border-radius: 6px ;
+        background-color: rgb(185, 24, 24);
+        color: white;
+    }
+    
+    .main-box{
+        
+        height: 1300px ;
+    } 
+    .intership-text>h1{
+        font-size: 2.5rem !important;
+    }
+    .heading-news h1{
+        font-size: 2rem !important;
+     
+    }
+
+    .section-one{
+        height: 800px;
+    }
+    .section-six{
+        height: 900Px;
+    }
+    .news-release{
+        margin-top: 250px ;
+    }
+    .font-weight-h4{
+        font-size: 16px ;
+    }
+    .article {
+        margin-top: 260px ;
+     
+    }
+    iframe {
+        border: 0;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media  (min-width:400px) and  (max-width:600px){ 
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .art-main{
+        margin-top: 1000px;
+    }
+    .news-release{
+        margin-top: 200px;       
+    }
+    .article{
+        margin-top: 200px ;
+    }
+    .intership-text>h1{
+        font-size: 3rem !important;
+    }
+    .section-six{
+        height: 900Px;
+    }
+    
+    .home-view h1{
+        font-size: 2.7rem;
+        
+    }
+    .home-view2{
+        height: 400px;
+     
+    }
+    .text-view2>h5{
+        font-size: 1rem;
+        
+ 
+    }
+    iframe {
+        border: 0;
+        width: auto;
+        height: auto;
+    }
+}
+@media  (min-width:466px) and ( max-width:800px){
+    .news-box2{
+        height: 450px !important;
+
+    }
+    .art-main{
+        margin-top: 460px;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    iframe {
+        border: 0;
+        width: auto;
+        height: auto;
+    }
+} 
+@media  (min-width:600px) and ( max-width:766px) {
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .section-one{
+        height: 800px;
+    }
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .home-view{
+        width: 100% !important;
+        
+    }
+    .news-release{
+        display: flex;
+        flex-direction: column;
+        height: 30%;
+        margin-top:270px  ;
+    }
+    .home-view2{
+        margin-bottom:0% !important; 
+    }
+    .text-view{
+        
+        width: 100%;
+    }
+    .text-view>button{
+        padding: 8px 30px ;
+        font-size: 14px ;
+        border-radius: 6px ;
+        background-color: rgb(185, 24, 24);
+        color: white;
+    }
+    .news-box1{
+        height: 400px;
+    }
+    .news-box2{
+        height: 470px !important;
+
+    }
+    .article{
+        margin-top: 300px;
+    }
+    .art-main{
+        margin-top: 190%;
+     
+    }
+    iframe {
+        border: 0;
+        width: auto;
+        height: auto;
+    }
+}
+@media  (min-width:800px) and (max-width:1000px) {
+   
+    .art-main{
+        margin-top: 460px;
+    }
+    .news-box3-1{
+        height: 50%;
+        margin-bottom: 1%;
+    }
+    .news-box3-2{
+        height: 50% ;
+    }
+    
+    .section-two{
+        height: 70%;
+    }
+    .news-release{
+        margin-top: 30% !important;
+    }
+    iframe {
+        border: 0;
+        width: auto;
+        height: auto;
+    }
+    
+}
+
+@media  (min-width:1000px) and (max-width:1200px){
+
+
+    .news-box3-1{
+        height: 190px !important;
+        margin-bottom: 10%;
+    }
+    .news-box3-2{
+        height: 190px !important;
+    }
+    iframe {
+        border: 0;
+        width: auto;
+        height: auto;
+    }
+       
+}
+@media  (max-width:991px){
+    .nasa-logo{
+        position: absolute;
+        top: 12px;
+        left:40%;
+        margin: 0px ;
+    }
+    .form-control{
+        display: none;
+    }
+
+    .search-icon{
+        display: initial !important;
+        width: 30px;
+        color: white;
+        margin-left: 0px !important;
+    }
+    .explore{
+        display: none;
+    }
+    iframe {
+        border: 0;
+        width: auto;
+        height: auto;
+    }
+}
