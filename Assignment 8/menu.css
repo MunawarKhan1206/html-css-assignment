@@ -1,0 +1,26 @@
+body
+{
+    background-color: grey;
+    color: whitesmoke;
+}
+h2
+{
+color: black;
+}
+a
+{
+    color: black;
+    text-align: center;
+
+}
+p
+{
+   
+    text-align: justify;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+}

@@ -1,0 +1,296 @@
+.navbar {
+    background-color: #fff;
+    height: 100px;
+  }
+  
+  .theme-btn {
+    border: none;
+    background-color: #75BF7A;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .nav-item>a {
+    color: black;
+    font-weight: 500;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .slide-content>div>h1 {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 60px;
+    color: black;
+  }
+  
+  .slide-content>div>span {
+    color: #9E9DA2;
+    font-size: 22px;
+  }
+  
+  .store-icons {
+    margin-top: 25px;
+  }
+  
+  .slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .slide>img {
+    width: 60%;
+  }
+  .first-section {
+    background-color: #75bf7a;
+    margin: 50px auto;
+    height: 120px;
+    display: flex;
+    padding: 30px 60px;
+    width: 90%;
+    align-items: center;
+    border-radius: 10px;
+    gap: 40px;
+  }
+  
+  .first-section>p {
+    color: #fff;
+    flex: 0.7;
+    font-size: 1.3em;
+  }
+  
+  .first-section>input {
+    flex: 1.6;
+    height: 2.5em;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 20px;
+    font-size: larger;
+    outline: none;
+  }
+  
+  .first-section>.atd {
+    flex: 0.7;
+    height: 3.8em;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 16px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+  }
+  .second-sec-text {
+    width: 61%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .second-sec-text>h1 {
+    font-size: 3rem;
+  
+    font-weight: 800;
+  }
+  
+  .second-sec-text>h1>span {
+    font-size: 3rem;
+  
+    font-weight: 800;
+    color: #75bf7a;
+  }
+  
+  .second-sec-text>p {
+    color: #9e9da2;
+    font-size: 1.8rem;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 30px 0;
+  }
+  /*  */
+  .container-4 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    padding-left: 30px;
+}
+.div-1-sec-3 {
+    text-align: right;
+}
+.img-sec-3 {
+    width: 80px;
+}
+.h3-sec-3 {
+    padding: 10px 0px 5px 0px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.p-sec-3 {
+    font-size: 18px;
+    color:#9e9da2;
+    text-align: justify;
+}
+
+.hello-01 {
+    width: 330px;
+    height: 220px;
+    padding: 20px 30px;
+    margin: 30px;
+}
+.hello-02 {
+    width: 330px;
+    height: 220px;
+    padding: 20px 30px;
+    margin: 30px;
+}
+.hello-03 {
+    width: 330px;
+    height: 220px;
+    padding: 20px 30px;
+    margin: 30px;
+}
+.hello-04 {
+    width: 330px;
+    height: 220px;
+    padding: 20px 30px;
+    margin: 30px;
+}
+
+.div-circle {
+    width: 380px;
+    height: 390px;
+    background-color: #75BF7A;
+    border-radius: 100%;
+
+}
+.div-circle>.mv{
+   padding-left: 16%;
+   margin-top: -15%;
+}
+.dot{
+    margin: 100px;
+    text-align: center;
+}
+
+.h1-sec-4>span{
+    text-align: center;
+    color: #75BF7A;
+}
+
+
+/* SECTION SEVEN */
+
+.container-5 {
+    width: 70%;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 40px 20px 40px 150px;
+    display: flex;
+    justify-content: start;
+    border: 10px;
+}
+h1.h1-text-center {
+    text-align: center;
+    font-size: 35px;
+}
+span.tere {
+    font-weight: 800;
+    color: #75BF7A;
+    font-size: 46.39px;
+}
+.flexible-1 {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    font-size: 80px;
+    padding: 0px 10px;
+    color: #529756;
+}
+.flexible-2 {
+    display: inline-block;
+    width: 220px;
+    /* height: 90px; */
+    /* font-size: 45px; */
+    padding: 10px 10px;
+    line-height: 40px;
+    /* margin-top: 5px; */
+}
+.p1-sec-5 {
+    font-size: 25px;
+    line-height: 30px;
+    color: #9E9DA2
+}
+.flexible-2>.fwh
+{
+    font-weight: 700;
+}
+
+.img-1-sec-5 {
+    width: 220px;
+    margin-left: 100px;
+}
+.container-earning
+{
+    width: 78%;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 40px 20px 40px 150px;
+    display: flex;
+    justify-content: end;
+    border: 10px;
+}
+footer { 
+    background-color: #fff;
+    height: 300px;
+  }
+ .footer-container {
+    display: flex;
+    padding: 50px 50px;
+    justify-content: space-around;
+    align-items: center;
+  }
+ .footer-container>li {
+    list-style: none;
+    margin: 10px 0;
+    color: #9e9da2;
+  }
+ .footer-btn {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-btn-black {
+    width: 50%;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+.footer-container>div>ul
+{
+ color: #9E9DA2;
+ padding: 1px 25px;
+
+}
+.rights
+{
+    color:#75BF7A;
+    text-align: center;
+    font-size: x-large;
+}

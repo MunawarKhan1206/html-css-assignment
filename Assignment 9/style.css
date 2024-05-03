@@ -1,0 +1,708 @@
+@font-face {
+    font-family: "Futurak";
+    src: url(font/futurak.ttf);
+}
+
+body {
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+background-color: black;
+  
+}
+
+/* navbar */
+
+.header {
+    width: 100%;
+    background-color: black;
+    /* padding: 10px 60px; */
+}
+
+.logo {
+    width: 20%;
+    margin-top: 10px;
+    padding-left: 80px;
+}
+
+.logo>img {
+    width: 80%;
+    height: 80px;
+
+}
+
+.menu>li {
+    display: inline-block;
+    margin-right: 15px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.logo,
+.right-side {
+    display: inline-block;
+
+}
+
+.right-side {
+
+    width: 80%;
+    vertical-align: bottom;
+    text-align: right;
+    margin-top: -20%;
+    padding: 20px;
+
+}
+
+.logo {
+
+    width: 30%;
+    vertical-align: baseline;
+
+}
+
+.btns>button {
+    border: none;
+    border-radius: 35px;
+}
+
+.btn-1 {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.btn-2 {
+    background-color: #ed1c24;
+    border: 1px solid #ed1c24;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.menu {
+    display: inline-block;
+position: relative;
+left: 130px;
+}
+
+.btns {
+    display: inline-block;
+}
+
+.btn-2>i {
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+}
+
+.btn-2 {
+    padding: 10px !important;
+}
+
+/* slider */
+
+.slide {
+    width: 100%;
+    /* height:500px */
+    /* ; */
+}
+
+.slide>img {
+    width: 100%;
+    /* height: 100%; */
+
+}
+
+/* intro */
+
+.intro {
+    /* margin-top: 5%; */
+    width: 100%;
+    /* height:500px; */
+    background: black;
+    /* padding: 20px ; */
+
+}
+
+.intro>.content>h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'butler';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 8px 
+}
+
+.intro>.content>p {
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.content>h2 {
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+.content>h2>span {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+}
+
+.content>p {
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+
+/* cards */
+
+.card-cantainer {
+    display: flex;
+    justify-content: center;
+       background-color: black;
+    
+   
+}
+
+.card-logo {
+    background-color: white;
+
+}
+
+.card-one,
+.card-two,
+.card-three {
+    width: 21%;
+}
+
+.card-two {
+    margin: 0% 5%;
+}
+
+.card-one>img {
+    width: 100%;
+}
+
+.card-two>img {
+    width: 100%;
+}
+
+.card-three>img {
+    width: 100%;
+}
+
+.card-btn {
+    border: 1px solid #ffff;
+    width: 100%;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10%;
+    
+}
+
+.card {
+    margin: 0% 30%;
+    background-color: transparent !important;
+    color: #ffff;
+    border: none;
+}
+
+/* restaurant-franchise */
+.franchises-cards{
+    background-color: black;
+   padding: 80px;
+
+    ;
+}
+.franchises-cards>h3{
+    color: #ed1c24;
+    margin-top:0%;
+    
+}
+.franchises-cards>h2>span {
+    font-family: "Futurak";
+    color: white;
+}
+.franchises-cards>h2{
+    color: rgba(255, 255, 255, 0.7);
+}
+.franchises-cards>.address>p{
+    font-family: 'Apercu';
+    padding-left: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.fa-map:before {
+     font-size: 125%;
+    content: "\f279";
+    color: red;
+}
+.franchises-cards>.address{
+    display: inline-block;
+}
+.fa-phone:before {
+    content: "\f095";
+    font-size: 125%;
+    color: rgb(8, 239, 8);
+}
+.franchises-cards>.contact>p
+{
+    padding-left: 15px;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+} 
+.franchises-cardspics {
+   
+    text-align: right;
+    position: relative;
+    bottom: 250px;
+   }
+.franchises-cards>p{
+    color: white;
+}
+.directions>p{
+    color: white;
+}
+
+.fa-arrow-right:before {
+    content: "\f061";
+color: white;
+font-size: 20px;
+
+
+}
+.directions{
+    border: 1px solid white;  
+    border-radius: 200px;
+    padding: 5px;
+    width: 160px;
+    text-align: center
+}
+.franchises-cards2{
+    background-color: black;
+  height: 1px;
+}
+
+.cardintro{
+    position: relative;
+    bottom: 280px;
+    left: 700px
+}
+
+.franchises-cards2>.cardintro>h3{
+    color: #ed1c24;
+    margin-top:0%;
+    
+}
+.franchises-cards2>.cardintro>h2>span {
+    font-family: "Futurak";
+    color: white;
+}
+.franchises-cards2>.cardintro>h2{
+    color: rgba(255, 255, 255, 0.7);
+}
+.franchises-cards2>.cardintro>.address>p{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.fa-map:before {
+     font-size: 125%;
+    content: "\f279";
+    color: red;
+}
+.franchises-cards2>.cardintro>.address{
+    display: inline-block;
+}
+.fa-phone:before {
+    content: "\f095";
+    font-size: 125%;
+    color: rgb(8, 239, 8);
+}
+.franchises-cards2>.cardintro>.contact>p
+{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding-left: 15px;
+} 
+.franchises-cardspics2 {
+   
+    text-align:left;
+    position: relative;
+    bottom: 525px;
+    padding-left: 80px;
+   }
+.franchises-cards2>.cardintro>p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.directions>p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.fa-arrow-right:before {
+    content: "\f061";
+color: rgba(255, 255, 255, 0.7);
+font-size: 20px;
+text-align: end;
+}
+.directions{
+    border: 1px solid white;  
+    border-radius: 200px;
+    padding: 5px;
+    width: 160px;
+    text-align: center
+}
+.franchises-cards3{
+    background-color: black;
+   padding: 80px;
+padding-bottom: 0px;
+max-height: 350px;
+}
+.franchises-cards3>h3{
+    color: #ed1c24;
+    margin-top:0%;
+    
+}
+.franchises-cards3>h2>span {
+    font-family: "Futurak";
+    color: white;
+}
+.franchises-cards3>h2{
+    color: rgba(255, 255, 255, 0.7);
+}
+.franchises-cards3>.address>p{
+    font-family: 'Apercu';
+    padding-left: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.fa-map:before {
+     font-size: 125%;
+    content: "\f279";
+    color: red;
+}
+.franchises-cards3>.address{
+    display: inline-block;
+}
+.fa-phone:before {
+    content: "\f095";
+    font-size: 125%;
+    color: rgb(8, 239, 8);
+}
+.franchises-cards3>.contact>p
+{
+    padding-left: 15px;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+} 
+.franchises-cardspics3 {
+   
+    text-align: right;
+    position: relative;
+    bottom: 250px;
+   }
+.franchises-cards3>p{
+    color: white;
+}
+.directions>p{
+    color: white;
+}
+
+.fa-arrow-right:before {
+    content: "\f061";
+color: white;
+font-size: 20px;
+padding left: 20px;
+}
+.directions{
+    border: 1px solid white;  
+    border-radius: 200px;
+    padding: 5px;
+    width: 160px;
+    text-align: center
+}
+/* express */
+.exp-container{
+
+    margin: 50px auto;
+    width: 100% ;
+    padding-left: 50px;
+}
+
+.box img{
+    width: 100%;
+}
+.box{
+    display: inline-block;
+    padding: 0px 10px ;
+    width: 30%;
+    background-color: black;
+    color:  rgba(255, 255, 255, 0.7);#ffff;
+
+
+}
+
+.head{
+    font-size: 25px ;
+}
+/* 2 face */
+.exp-container2{
+    
+    margin: 50px auto;
+    width: 90% 
+}
+
+.box2 img{
+    width: 100%;
+}
+.box2{
+    display: inline-block;
+    padding: 0px 45px ;
+    width: 25%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);;
+
+}
+
+.head2{
+    font-size: 25px ;
+}
+.red{
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 24px;
+}
+.head>span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.head2>span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#village{
+    
+    
+}
+.vill-container{
+    margin: 100px 0px ;
+}
+
+.detailguj{
+    display: inline-block;
+    padding: 30px;
+ background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.imagevill img{
+    display: inline-block;
+    width: 100%;
+  
+}
+
+.imagevill{
+    display: inline-block;
+    width: 50%;
+  }
+
+#village .btnnav{
+    background-color: green;
+    width: 150px ;
+} 
+span.font{
+color:white;
+font-size: 30px;
+font-family: "futurak";
+}
+.villageintro>p
+{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: large; 
+}
+/* opening soon  */
+#opensoon{
+    margin: 0px auto;
+    text-align: center;
+    width: 85% ;
+    
+    /* border: white 2px solid; */
+}
+
+
+ .boxone{ 
+ 
+    
+     margin: 12px ;
+    display: inline-block;
+    border-radius: 5px ;
+    width: 330px ;
+    height: 200px ;
+    background-color: white
+    /* border: white 2px solid; */
+}
+.boxone>h2>span{
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-family:"futurak";
+}
+.boxone p{
+    font-size: 20px ;
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+.boxone img{
+
+    background-color: white;
+    margin: 5px 150px;
+}
+/* social feed */
+#social h1{
+    font-size: 20px ;
+}
+
+.socialimage img{
+    width: 225px;
+    padding: 10px ;
+}
+/* footer*/
+img.pic
+{
+    width: 150px;
+    background-color: black;
+}
+ul{
+    padding: 0px;
+    margin-top: -7%;
+}
+#footer{
+    padding-left: 50px;
+    padding-top: 10%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+    display: inline-flex;
+}
+#footer p{
+   
+}
+.foot1{
+    width: 31%;
+    display: inline-block;
+   text-align: justify;
+}
+.site{
+    margin:  30px ;
+  display: inline-block;
+}
+.site ul li{
+    list-style: none;
+    
+
+}
+.contact{
+    margin: 0px  20px ;
+}
+.contact ul li{
+    list-style: none;
+    
+    
+}
+.follow{
+    display: inline-block;
+    width: 15%;
+    margin: 0px  50px ;
+    
+}
+.follow ul li{
+
+    list-style: none;
+    
+
+}
+
+
+.follow .icon img{
+    display: inline-block;
+    width: 50px ;
+}
+.copyright>p{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 50px;
+}
+
+
+
+
+
+

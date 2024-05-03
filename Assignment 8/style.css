@@ -1,0 +1,35 @@
+#header
+{
+    background-color:black;
+    text-align: center;
+    color: red;
+
+}
+h3
+{
+    text-align: center;
+    
+}
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+}
+a{
+    color: black;
+}
+#ending
+{
+    background-color: grey;
+    color: white;
+    
+}
+#menu
+{
+    background-color: blanchedalmond;
+    color:purple;
+    
+}
