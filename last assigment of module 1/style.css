@@ -1,0 +1,94 @@
+span.deliverto {
+    font-size: large;
+    font-weight: 500;
+    font-style: oblique;
+}
+.login
+{
+    color:#FFB800;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.user{
+    text-shadow: 0px 20px 40px 0px #FFAE004A;
+
+    box-shadow: 0px 5px 10px 0px #FFAE0042;
+    
+}
+.searchfood
+{
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.theme-slide
+{
+    background-color: #FFB800;
+    width: 100%;
+    height: auto;
+
+}
+h3.aus{
+color: whitesmoke;
+font-weight: 700;
+
+letter-spacing: 0em;
+text-align: left;
+    line-height: 60px;
+
+  
+box-shadow: 0px 27px 82px 0px #FFAE0047;
+
+box-shadow: 0px 14px 15px 0px #FFAE0003;
+
+
+}
+.detailing {
+    line-height: 26px;
+    text-align: left;
+    color: #504F4F;
+}
+
+.ordercard
+{
+    background-color: white;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 5px;
+    border: 1px solid white;
+}
+.tab1
+{
+    display: flex;
+    display: flex;
+    margin-left: 40px;
+    padding-top: 15px;
+}
+button.theme-btn1 {
+    width: 70%;
+    text-align: start;
+    font-size: larger;
+
+}
+button.theme-btn2
+{
+    background-color: red;
+    font-size: small;
+}
+.slide {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .socialimage img{
+    width: 272px;
+    padding: 20px ;
+}
